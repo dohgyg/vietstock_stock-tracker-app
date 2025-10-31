@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "VietStock",
+  label: "VietStock",
   description: "Track real-time stock prices, get personalized alerts and explore detailed company insights.",
 };
 
