@@ -55,6 +55,18 @@ export const MARKET_OVERVIEW_WIDGET_CONFIG = {
     symbolActiveColor: 'rgba(15, 237, 190, 0.05)', // highlight color for active symbol
     tabs: [
         {
+            title: 'High Dividend',
+            symbols: [
+                { s: 'BOATS:MSTY', d: 'YieldMax MSTR Option Income Strategy ETF' },
+                { s: 'CBOE:COIW', d: 'Roundhill COIN WeeklyPay ETF' },
+                { s: 'CBOE:MSTW', d: 'Roundhill MSTR WeeklyPay ETF' },
+                { s: 'TSX:MSTE', d: 'Harvest MicroStrategy Enhanced High Income Shares ETF' },
+                { s: 'BOATS:YMAX', d: 'YieldMax Universe Fund of Option Income ETFS' },
+                { s: 'BOATS:LFGY', d: 'YieldMax Crypto Industry & Tech Portfolio Option Income ETF' },
+                { s: 'CBOE:WPAY', d: 'Roundhill ETF Trust Roundhill W' },
+            ],
+        },
+        {
             title: 'Financial',
             symbols: [
                 { s: 'NYSE:JPM', d: 'JPMorgan Chase' },
@@ -135,6 +147,17 @@ export const MARKET_DATA_WIDGET_CONFIG = {
     isTransparent: false,
     backgroundColor: '#0F0F0F',
     symbolsGroups: [
+        {
+            name: 'High Dividend',
+            symbols: [
+                { name: 'BOATS:MSTY', displayName: 'YieldMax MSTR Option Income Strategy ETF' },
+                { name: 'CBOE:COIW', displayName: 'Roundhill COIN WeeklyPay ETF' },
+                { name: 'TSX:MSTE', displayName: 'Harvest MicroStrategy Enhanced High Income Shares ETF' },
+                { name: 'BOATS:YMAX', displayName: 'YieldMax Universe Fund of Option Income ETFS' },
+                { name: 'BOATS:LFGY', displayName: 'YieldMax Crypto Industry & Tech Portfolio Option Income ETF' },
+                { name: 'CBOE:WPAY', displayName: 'Roundhill ETF Trust Roundhill W' },
+            ],
+        },
         {
             name: 'Financial',
             symbols: [
